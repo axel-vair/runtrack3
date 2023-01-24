@@ -1,0 +1,15 @@
+body {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.section {
+    background-color: #88c1d0;
+    width: 20vw;
+    height: 100px;
+}
+
+

@@ -1,0 +1,1 @@
+alert('Hello Javascript!'); // alerte JS liée dans le fichier HTML

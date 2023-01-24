@@ -1,0 +1,1 @@
+console.log('Hello Javascript!') // on met la string dans la console

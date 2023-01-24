@@ -1,0 +1,89 @@
+* {
+    cursor: grab;
+}
+body {
+    height: 1000px;
+}
+
+#target {
+    background-color: red;
+    border: 1px solid black;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+.pieces {
+    height: 405px;
+    width: 818px;
+    border: 1px black solid;
+
+}
+.puzzle {
+    height: 405px;
+    margin-bottom: 10px;
+    width: 818px;
+    border: 1px black solid;
+}
+
+
+
+.piece {
+    border: 1px white solid;
+    width: 133px;
+    height: 399px;
+    float: left;
+}
+
+#img0{
+    background-image: url("./pièces/arc1.png");
+}
+#img1{
+    background-image: url("./pièces/arc2.png");
+}
+
+#img2{
+    background-image: url("./pièces/arc3.png");
+}
+#img3{
+    background-image: url("./pièces/arc4.png");
+}
+#img4{
+    background-image: url("./pièces/arc5.png");
+}
+
+#img5{
+    background-image: url("./pièces/arc6.png");
+}
+
+body {
+    /* Prevent the user selecting text in the example */
+    user-select: none;
+}
+
+#draggable {
+    text-align: center;
+    background: white;
+}
+
+.dropzone {
+    width: 818px;
+    height: 405px;
+    background: blueviolet;
+    margin: 10px;
+    padding: 10px;
+}
+
+.dropzone.dragover {
+    background-color: purple;
+}
+
+.dragging {
+    opacity: 0.5;
+}
